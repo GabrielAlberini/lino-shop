@@ -1,10 +1,10 @@
 import React from 'react'
 import './NavBar.css'
 import logo from '../../lino-logo.jpg'
+import CartWidget from '../CartWidget/CartWidget'
 
 
 export default function NavBar() {
-    
     return (
         <nav className="NavBar">
             <div className="container-logo">
@@ -21,6 +21,7 @@ export default function NavBar() {
                     <li className="list-option"><a href="#" className="list-option-link">About us</a></li>
                     <li className="list-option"><a href="#" className="list-option-link">Login</a></li>
                 </ul>
+                <CartWidget />
             </div>
         </nav>
     )
