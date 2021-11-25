@@ -1,0 +1,14 @@
+.cart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart-shop {
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.cart-shop:hover {
+    color: #000;
+}

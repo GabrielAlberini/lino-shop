@@ -59,8 +59,7 @@ const ListItems = () => {
                     <Item nombre={producto.nombre} precio={producto.precio} stock={producto.stock}/>
                 )
             })}
-
-            <h1>Ejemplo Children</h1>
+            <h1>Arriba prueba de map en objeto</h1>
         </div>
     )
 }

@@ -1,9 +1,11 @@
-// import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import './CartWidget.css'
 
 const CartWidget = () => {
     return (
-        <div className="CartWidget-container">
-            {/* <ShoppingCartIcon /> */}
+        <div className="cart-container">
+            <FontAwesomeIcon className="cart-shop" icon={faShoppingCart} />
         </div>
     )
 }
