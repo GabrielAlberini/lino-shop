@@ -32,14 +32,15 @@
 }
 .list-option {
     list-style: none;
+    padding: 3px;
 }
 .list-option:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .list-option-link {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
 }
 .list-option-link:hover {
     color: #000;
