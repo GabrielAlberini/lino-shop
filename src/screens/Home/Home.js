@@ -1,15 +1,17 @@
 import React from 'react';
-import { Product } from '../../components/ItemCount/ItemCount';
+import { ItemCount } from '../../components/ItemCount/ItemCount';
 import { Layout } from '../../components/Layout/Layout';
+import { ListItems } from '../../components/ListItems/ListItems';
 
 const Home = () => {
     return (
         <div>
             <Layout>
-                <Product stock={10}/>
-                <Product stock={4}/>
-                <Product stock={67}/>
-                <Product stock={212}/>
+                <ItemCount stock={10}/>
+                <ItemCount stock={4}/>
+                <ItemCount stock={67}/>
+                <ItemCount stock={212}/>
+                <ListItems />
             </Layout>
         </div>
     )
