@@ -2,15 +2,12 @@ import React from 'react';
 import { ItemCount } from '../../components/ItemCount/ItemCount';
 import { Layout } from '../../components/Layout/Layout';
 import { ListItems } from '../../components/ListItems/ListItems';
+import './Home.css'
 
 const Home = () => {
     return (
-        <div>
+        <div clasName="cont-items">
             <Layout>
-                <ItemCount stock={10}/>
-                <ItemCount stock={4}/>
-                <ItemCount stock={67}/>
-                <ItemCount stock={212}/>
                 <ListItems />
             </Layout>
         </div>
