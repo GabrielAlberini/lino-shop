@@ -3,6 +3,7 @@ import Item from '../Item/Item'
 import { Container} from 'react-bootstrap';
 import { Grid } from '@mui/material';
 import CircularProgress from '@mui/material/CircularProgress'
+import { ContainerItemDetail } from '../ContainerItemDetail/ContainerItemDetail';
 
 const ListItems = () => {
 
@@ -55,7 +56,6 @@ const ListItems = () => {
 
     useEffect(() => {
         getProducts.then((data) => {
-            console.log("Respuesta de promesa", data)
             setProducts(data)
             setLoader(false)
         })

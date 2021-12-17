@@ -42,7 +42,7 @@ const Item = ({data}) => {
             <button className="btn" onClick={removeItem}>-</button>
             <button id="btn-update" className="btn" onClick={updateItem}>+</button>
             <br/><br/>
-            <button className="btn-cart">Agregar al carrito</button>
+            <button className="btn btn-cart">Agregar al carrito</button>
         </div>
     )
 }

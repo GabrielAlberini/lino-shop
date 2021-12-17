@@ -1,0 +1,17 @@
+.cont-main-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(203, 247, 203);
+}
+
+.cont-detail {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 2px solid black;
+    background-color: rgb(175, 212, 175);
+}
