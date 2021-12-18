@@ -33,15 +33,20 @@
 .list-option {
     list-style: none;
     padding: 3px;
+    font-size: 1rem;
+    cursor: pointer;
 }
+
 .list-option:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
-.list-option-link {
+
+.list-option a {
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    transition: .2s ease;
 }
-.list-option-link:hover {
+
+.list-option a:hover {
     color: #000;
 }

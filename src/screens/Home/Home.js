@@ -1,15 +1,14 @@
 import React from 'react';
-import { Layout } from '../../components/Layout/Layout';
-import { ListItems } from '../../components/ListItems/ListItems';
 import './Home.css'
-import { ContainerItemDetail } from '../../components/ContainerItemDetail/ContainerItemDetail';
+import { Layout } from '../../components/Layout/Layout';
+import { ItemListContainer } from '../../components/ItemListContainer/ItemListContainer';
+
 
 const Home = () => {
     return (
         <div>
             <Layout>
-                <ListItems/>
-                <ContainerItemDetail />
+                <ItemListContainer />
             </Layout>
         </div>
     )

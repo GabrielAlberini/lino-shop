@@ -1,16 +1,10 @@
 import './App.css';
-import { Home, About, Cart, Login, Contact, Products } from './screens'
+import { AppRouter } from './components/AppRouter/AppRouter'
 
 function App() {
-
   return (
     <div className="App">
-     <Home />
-     {/* <About />
-     <Cart />
-     <Login />
-     <Contact />
-     <Products /> */}
+      <AppRouter />
     </div>
   );
 }

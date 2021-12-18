@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './Item.css'
+import { Link } from 'react-router-dom'
 
 const Item = ({data}) => {
 
@@ -36,15 +37,17 @@ const Item = ({data}) => {
         <div>
             <img src={`../../assets/${data.img}`} alt="Imagen de producto"/>
             <p>Stock: {setStock}</p>
-            <p>{data.name}</p>
-            <p>{data.description}</p>
+            <p>{data.name}</p> 
             <h1 className="product-cantidad">{itemCount}</h1>
             <button className="btn" onClick={removeItem}>-</button>
             <button id="btn-update" className="btn" onClick={updateItem}>+</button>
             <br/><br/>
+            <Link to={`products/${data.id}`}>
+            <button className='btn'>Ver Producto</button>
+            </Link>
             <button className="btn btn-cart">Agregar al carrito</button>
         </div>
     )
 }
 
-export default Item;
+export { Item };

@@ -1,5 +1,5 @@
 import React from 'react';
-import {} from './Layout.css'
+import './Layout.css'
 import { Header } from '../Header/Header';
 import { Footer } from '../Footer/Footer';
 
