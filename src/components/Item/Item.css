@@ -1,0 +1,25 @@
+.item-cont {
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(151, 216, 151);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.item-img {
+    border-radius: 10px;
+}
+
+.product-cantidad {
+    margin: 0;
+}
+
+.product-name{
+    margin: 0;
+}
+.product-stock{
+    margin: 0;
+}

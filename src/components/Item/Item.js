@@ -34,10 +34,10 @@ const Item = ({data}) => {
     }
 
     return (
-        <div>
-            <img src={`../../assets/${data.img}`} alt="Imagen de producto"/>
-            <p>Stock: {setStock}</p>
-            <p>{data.name}</p> 
+        <div className='item-cont'>
+            <img className='item-img' src={`../../assets/${data.img}`} alt="Imagen de producto"/>
+            <p className='product-stock'>Stock: {setStock}</p>
+            <p className='product-name'>{data.name}</p> 
             <h1 className="product-cantidad">{itemCount}</h1>
             <button className="btn" onClick={removeItem}>-</button>
             <button id="btn-update" className="btn" onClick={updateItem}>+</button>

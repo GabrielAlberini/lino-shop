@@ -66,14 +66,10 @@ const ListItems = () => {
             setProducts(data)
             setLoader(false)
         })
-    }, []) 
+    }, [category]) 
 
     return ( 
         <div>
-            <h2>Productos destacados</h2>
-            <h3><Link to={`/products/${products.id}`}>Congelados</Link></h3>
-            <h3><Link to={`/products/${products.id}`}>Panificados</Link></h3>
-
             <Container className="product-container">
             {
                 loader 

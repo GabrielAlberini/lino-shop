@@ -1,11 +1,12 @@
 import React from 'react';
 import { Layout } from '../../components/Layout/Layout';
+import { ItemListContainer } from '../../components/ItemListContainer/ItemListContainer';
 
 const Products = () => {
     return (
         <div>
             <Layout>
-                Este es mi página de products
+                <ItemListContainer />
             </Layout>
         </div>
     )
